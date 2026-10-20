@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Chilanguita Mexican Cuisine | Auténtica Gastronomía & Folclor</title>
+    <meta name="description" content="La Chilanguita: Con el sazón y folclor que nos caracteriza. Comida mexicana auténtica, tacos y antojos tradicionales en Norristown, PA.">
+    <meta name="keywords" content="La Chilanguita, Mexican Cuisine, Norristown PA, Comida Mexicana, Tacos, Folclore Mexicano, Sazón Chilango">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://menutech.xyz/lachilanguita">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant">
+    <meta property="og:title" content="La Chilanguita Mexican Cuisine | Con el sazón y folclor que nos caracteriza">
+    <meta property="og:description" content="Sazón, tradición y folclor mexicano en Norristown, PA. Ordena en línea tus platillos favoritos.">
+    <meta property="og:image" content="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514224/LaChilanguitaLOGO_i1tb7l.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="La Chilanguita Mexican Cuisine">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514224/LaChilanguitaLOGO_i1tb7l.png">
+
+    <link rel="icon" id="favicon" type="image/png" href="https://res.cloudinary.com/dzklt0a5u/image/upload/f_auto,q_auto:eco,dpr_auto,w_250/v1792514224/LaChilanguitaLOGO_i1tb7l.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Marcellus&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Rozha+One&display=swap" rel="stylesheet">
+
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MexicanRestaurant",
+      "name": "La Chilanguita Mexican Cuisine",
+      "image": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514224/LaChilanguitaLOGO_i1tb7l.png",
+      "telephone": "484-965-9994",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1729 Markley St",
+        "addressLocality": "Norristown",
+        "addressRegion": "PA",
+        "postalCode": "19401",
+        "addressCountry": "US"
+      },
+      "servesCuisine": "Mexican",
+      "url": "https://lachilanguitamexicancuisine.onlineordering.io/en?locationId=1587300&orderMode=in_store_pickup"
+    }
+    </script>
+
+    <style>
+        /* Estilos Tradicionales Folclóricos Mexicanos */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-black: #080605;
+            --bg-dark-card: #120e0b;
+            --bg-surface: #1a1410;
+            --color-orange: #e65100;
+            --color-orange-bright: #ff6d00;
+            --color-orange-glow: #ff8f00;
+            --color-gold: #ffb300;
+            --color-magenta: #d81b60;
+            --color-terracotta: #bf360c;
+            --color-text-light: #f8f4ee;
+            --color-text-muted: #baaba0;
+
+            --font-folk-title: 'Rozha One', 'Cinzel Decorative', serif;
+            --font-heading: 'Marcellus', serif;
+            --font-body: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-black);
+            color: var(--color-text-light);
+            line-height: 1.7;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(rgba(230, 81, 0, 0.15) 1.5px, transparent 1.5px),
+                radial-gradient(rgba(255, 179, 0, 0.08) 1px, transparent 1px);
+            background-size: 36px 36px, 72px 72px;
+            background-position: 0 0, 18px 18px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+
+        /* Marcos, Esquinas y Cenefas Folclóricas */
+        .folk-border-box {
+            position: relative;
+            background: var(--bg-dark-card);
+            border: 2px solid var(--color-orange);
+            border-radius: 12px;
+            padding: 45px 35px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.85), inset 0 0 25px rgba(230, 81, 0, 0.18);
+        }
+
+        /* Esquinas Ornamentales Folclóricas en SVG */
+        .folk-corner {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            fill: var(--color-gold);
+            pointer-events: none;
+        }
+        .folk-corner-tl { top: 6px; left: 6px; }
+        .folk-corner-tr { top: 6px; right: 6px; transform: rotate(90deg); }
+        .folk-corner-bl { bottom: 6px; left: 6px; transform: rotate(-90deg); }
+        .folk-corner-br { bottom: 6px; right: 6px; transform: rotate(180deg); }
+
+        /* Separadores Papel Picado */
+        .papel-picado-divider {
+            width: 100%;
+            height: 42px;
+            fill: var(--color-orange);
+            display: block;
+            margin: 0 auto;
+            opacity: 0.95;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.6));
+        }
+
+        /* Listón / Banner Folclórico */
+        .slogan-banner {
+            background: linear-gradient(90deg, transparent 0%, rgba(230, 81, 0, 0.25) 15%, rgba(255, 109, 0, 0.4) 50%, rgba(230, 81, 0, 0.25) 85%, transparent 100%);
+            border-top: 2px dashed var(--color-gold);
+            border-bottom: 2px dashed var(--color-gold);
+            padding: 16px 20px;
+            text-align: center;
+            margin: 10px 0 35px 0;
+            position: relative;
+        }
+
+        .slogan-text {
+            font-family: var(--font-heading);
+            font-size: clamp(0.95rem, 2vw, 1.35rem);
+            font-weight: 700;
+            color: var(--color-gold);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.9), 0 0 12px rgba(255, 179, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .slogan-icon {
+            width: 22px;
+            height: 22px;
+            fill: var(--color-orange-bright);
+        }
+
+        /* Tipografía */
+        .text-gradient-folk {
+            background: linear-gradient(135deg, #ffffff 10%, var(--color-gold) 55%, var(--color-orange-bright) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .badge-folk {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 22px;
+            border-radius: 4px;
+            background: rgba(230, 81, 0, 0.2);
+            border: 1px dashed var(--color-orange-glow);
+            color: var(--color-gold);
+            font-family: var(--font-heading);
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        /* Botón Estilo Artesanal Folclórico */
+        .btn-folk-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 18px 44px;
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffffff;
+            background: linear-gradient(135deg, var(--color-orange-bright) 0%, var(--color-terracotta) 100%);
+            border: 2px solid var(--color-gold);
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(230, 81, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.4);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-folk-primary:hover {
+            transform: translateY(-4px) scale(1.03);
+            background: linear-gradient(135deg, #ff7d1a 0%, var(--color-orange-bright) 100%);
+            box-shadow: 0 15px 35px rgba(255, 109, 0, 0.7), 0 0 25px rgba(255, 179, 0, 0.6);
+            border-color: #ffffff;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(8, 6, 5, 0.94);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid var(--color-orange);
+            padding: 14px 0;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-heading);
+            font-size: 1.3rem;
+            color: #ffffff;
+        }
+
+        .nav-logo-img {
+            height: 48px;
+            width: auto;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 32px;
+        }
+
+        .nav-link {
+            font-family: var(--font-heading);
+            font-size: 0.95rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--color-text-muted);
+            position: relative;
+            padding: 4px 0;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--color-gold);
+        }
+
+        .lang-switch {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(230, 81, 0, 0.15);
+            border: 1px solid var(--color-orange);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .lang-btn {
+            cursor: pointer;
+            color: var(--color-text-muted);
+            transition: color 0.3s;
+        }
+
+        .lang-btn.active {
+            color: var(--color-gold);
+        }
+
+        .navbar-toggler {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .toggler-icon {
+            width: 25px;
+            height: 2px;
+            background-color: var(--color-orange-glow);
+        }
+
+        /* HERO SECTION - LOGO TOTALMENTE CENTRADO Y ÚNICO BOTÓN DE PEDIDO */
+        .hero {
+            position: relative;
+            min-height: 94vh;
+            padding-top: 130px;
+            padding-bottom: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: 
+                radial-gradient(circle at center, rgba(8,6,5,0.3) 0%, rgba(8,6,5,0.94) 100%),
+                url('https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514271/unnamed_-_2026-10-16T152935.767_z3ngfj.webp') center/cover no-repeat fixed;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(8,6,5,0.75) 0%, rgba(8,6,5,0.35) 50%, rgba(8,6,5,1) 100%);
+            pointer-events: none;
+        }
+
+        .hero-container {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            max-width: 880px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Contenedor del Logo 100% Centrado */
+        .hero-logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto 20px auto;
+        }
+
+        .hero-logo {
+            width: 190px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            filter: drop-shadow(0 8px 20px rgba(0,0,0,0.95)) drop-shadow(0 0 30px rgba(230, 81, 0, 0.6));
+        }
+
+        .hero-title {
+            font-family: var(--font-folk-title);
+            font-size: clamp(2.8rem, 5.5vw, 4.6rem);
+            line-height: 1.1;
+            margin-bottom: 16px;
+            color: #ffffff;
+            text-shadow: 0 4px 15px rgba(0,0,0,0.95);
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-heading);
+            font-size: clamp(1.05rem, 2vw, 1.3rem);
+            color: var(--color-text-light);
+            max-width: 680px;
+            margin: 0 auto 24px auto;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+        }
+
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .hero-address-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--color-gold);
+            font-size: 0.95rem;
+            background: rgba(18, 14, 11, 0.9);
+            border: 1px solid var(--color-orange);
+            padding: 8px 22px;
+            border-radius: 30px;
+        }
+
+        /* Secciones Generales */
+        .section-padding {
+            padding: 90px 0;
+            position: relative;
+        }
+
+        .section-title-wrap {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 40px auto;
+        }
+
+        .section-title {
+            font-family: var(--font-folk-title);
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        /* Nosotros Layout */
+        .about-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-text p {
+            color: var(--color-text-light);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 20px;
+        }
+
+        .about-gallery-duo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .about-img {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid var(--color-orange);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+        }
+
+        /* Galería */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            aspect-ratio: 1 / 1;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--color-orange);
+            background: var(--bg-dark-card);
+            transition: all 0.4s ease;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-6px);
+            border-color: var(--color-gold);
+            box-shadow: 0 12px 30px rgba(230, 81, 0, 0.45);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        /* Sección Información */
+        .info-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .info-card {
+            background: var(--bg-dark-card);
+            border: 1px solid var(--color-orange);
+            padding: 35px 25px;
+            text-align: center;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .info-card:hover {
+            border-color: var(--color-gold);
+            transform: translateY(-5px);
+            background: var(--bg-surface);
+        }
+
+        .info-card-icon {
+            width: 48px;
+            height: 48px;
+            color: var(--color-gold);
+            margin: 0 auto 16px auto;
+        }
+
+        .info-card h3 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .info-card p {
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Footer con Script de Menutech */
+        .site-footer {
+            background-color: #040302;
+            border-top: 2px solid var(--color-orange);
+            padding: 60px 0 30px 0;
+            color: var(--color-text-muted);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-brand-title {
+            font-family: var(--font-folk-title);
+            font-size: 1.6rem;
+            color: #ffffff;
+            margin-bottom: 14px;
+        }
+
+        .social-icons-wrapper {
+            display: flex;
+            gap: 12px;
+            margin-top: 18px;
+        }
+
+        .social-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--bg-dark-card);
+            border: 1px solid var(--color-orange);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .social-btn:hover {
+            background: var(--color-orange);
+            color: #ffffff;
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            font-size: 0.95rem;
+            color: #9a9a9a;
+        }
+
+        .menutech-link {
+            color: var(--color-orange-bright);
+            font-weight: 700;
+        }
+
+        .menutech-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .about-layout {
+                grid-template-columns: 1fr;
+            }
+            .info-cards-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-toggler {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(8, 6, 5, 0.98);
+                border-bottom: 2px solid var(--color-orange);
+                flex-direction: column;
+                padding: 25px;
+                gap: 18px;
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+            }
+
+            .nav-menu.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .hero-logo {
+                width: 150px;
+            }
+
+            .about-gallery-duo {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <!-- ESTADO DINÁMICO DE MENUTECH -->
+    <script>
+        window.MENU_TECH_STATE = {
+            "lang": "es",
+            "showReservations": false,
+            "showAbout": true,
+            "showPromo": false,
+            "showGallery": true,
+            "showCatering": false,
+            "showInfo": true,
+            "showDelivery": false,
+            "cuid": "#",
+            "ruid": "#",
+            "title": "La Chilanguita Mexican Cuisine",
+            "logoImg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514224/LaChilanguitaLOGO_i1tb7l.png",
+            "heroAddress": "1729 Markley St, Norristown, PA 19401",
+            "heroImg": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514271/unnamed_-_2026-10-16T152935.767_z3ngfj.webp",
+            "aboutImg1": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514277/unnamed_-_2026-10-16T152924.304_mg8gw5.webp",
+            "aboutImg2": "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514279/unnamed_-_2026-10-16T152917.113_evpvzz.webp",
+            "gallery": [
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514311/unnamed_100_ors2ph.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514312/unnamed_99_lgxzhd.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514312/unnamed_98_gslmmy.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514312/unnamed_97_nr5e43.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514313/unnamed_96_oubt0m.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514314/unnamed_95_1_z6aicv.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514314/unnamed_95_carb8r.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514314/unnamed_94_hdvpsv.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514315/unnamed_93_eemqoa.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514316/unnamed_92_heivlm.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514316/unnamed_91_ki9hg4.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514317/unnamed_89_kmjbdi.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514317/unnamed_88_eu7sit.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514318/unnamed_87_rgyev0.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514318/unnamed_86_xywiqp.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514318/unnamed_85_ggus1a.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514319/unnamed_84_xxnf8g.webp",
+                "https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514319/unnamed_83_jbekjl.webp"
+            ],
+            "socials": [
+                {"platform":"instagram","url":"https://www.instagram.com/lachilanguiux84/"},
+                {"platform":"tiktok","url":"https://www.tiktok.com/@lachilanguitamexcuisine"}
+            ],
+            "paragraphs": {
+                "about": "En La Chilanguita Mexican Cuisine, nos enorgullece brindar a nuestros clientes una auténtica y vibrante experiencia gastronómica mexicana, elaborada con esmero y arraigada en nuestra rica tradición culinaria. Cada platillo rebosa de sabores auténticos y está preparado para regalarte un momento inolvidable.\n\nEl secreto de nuestro éxito es simple: crear comidas excepcionales utilizando ingredientes frescos y de la más alta calidad que capturan la esencia genuina de la cocina mexicana en cada bocado.\n\nNuestra misión es ayudarte a saborear los momentos que realmente importan. Disfruta de gran comida, una bebida refrescante y relájate como en casa."
+            },
+            "titles": {
+                "about-title": "Somos La Chilanguita",
+                "about-subtitle": "Nuestra Historia",
+                "gallery-title": "Sabor & Folclor Mexicano",
+                "gallery-subtitle": "Galería Culinaria",
+                "info-title": "Información",
+                "info-subtitle": "Visítanos"
+            },
+            "info": {
+                "hours": "Abierto todos los días de 10:00 AM a 10:00 PM (Cerrado los Martes)",
+                "phone": "484-965-9994",
+                "address": "1729 Markley St, Norristown, PA 19401"
+            }
+        };
+    </script>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="navbar-brand" id="nav-brand">
+                <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/f_auto,q_auto:eco,dpr_auto,w_250/v1792514224/LaChilanguitaLOGO_i1tb7l.png" alt="La Chilanguita Logo" class="nav-logo-img">
+                <span>La Chilanguita</span>
+            </a>
+
+            <button class="navbar-toggler" id="navbar-toggler" aria-label="Abrir menú">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero-section" class="nav-link active" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li><a href="#about-section" class="nav-link" data-es="Nosotros" data-en="About Us">Nosotros</a></li>
+                <li><a href="#gallery-section" class="nav-link" data-es="Galería" data-en="Gallery">Galería</a></li>
+                <li><a href="#info-section" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a></li>
+                <li>
+                    <div class="lang-switch">
+                        <span id="lang-es" class="lang-btn active">ES</span>
+                        <span style="opacity:0.3">|</span>
+                        <span id="lang-en" class="lang-btn">EN</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section Con Logo Centrado y Único Botón de Ordenar Online -->
+    <header class="hero" id="hero-section">
+        <div class="hero-container">
+            <!-- Logo perfectamente centrado -->
+            <div class="hero-logo-wrapper">
+                <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/f_auto,q_auto:eco,dpr_auto,w_250/v1792514224/LaChilanguitaLOGO_i1tb7l.png" id="hero-logo" alt="La Chilanguita Logo" class="hero-logo">
+            </div>
+
+            <div class="badge-folk">
+                <span data-es="Tradición & Autenticidad" data-en="Tradition & Authenticity">Tradición & Autenticidad</span>
+            </div>
+
+            <h1 class="hero-title">
+                La Chilanguita <br>
+                <span class="text-gradient-folk">Mexican Cuisine</span>
+            </h1>
+
+            <p class="hero-subtitle" data-es="Vibrante tradición gastronómica mexicana elaborada con esmero y sazón folclórico en Norristown, PA." data-en="Vibrant authentic Mexican culinary tradition crafted with care in Norristown, PA.">
+                Vibrante tradición gastronómica mexicana elaborada con esmero y sazón folclórico en Norristown, PA.
+            </p>
+
+            <!-- ÚNICO BOTÓN DE ORDER ONLINE EN LA WEBSITE -->
+            <div class="hero-actions">
+                <a href="https://lachilanguitamexicancuisine.onlineordering.io/en?locationId=1587300&orderMode=in_store_pickup" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn-folk-primary" 
+                   id="btn-hero-order">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    <span data-es="Order Online" data-en="Order Online">Order Online</span>
+                </a>
+
+                <!-- Scripts requeridos de Menutech -->
+                <script src="https://www.fbgcdn.com/embedder/js/ewm2.js"></script>
+                <script src="https://menutech.xyz/menutechUI.min.js"></script>
+                <div style="display:none;">
+                    <menutech-orders id="hero-orders" cuid="#" ruid="#" background="#e65100" color="#ffffff" data-glf-cuid="#" data-glf-ruid="#"></menutech-orders>
+                    <div id="hero-reservations-wrapper" style="display: none;">
+                        <menutech-reservations id="hero-reservations" cuid="#" ruid="#" background="#2f4854" color="#ffffff" data-glf-cuid="#" data-glf-ruid="#" data-glf-reservation="true"></menutech-reservations>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="hero-address-tag">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    <span id="hero-address">1729 Markley St, Norristown, PA 19401</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER DE CULTURA Y CORTINILLA DE PAPEL PICADO -->
+    <svg class="papel-picado-divider" viewBox="0 0 1200 42" preserveAspectRatio="none">
+        <path d="M0,0 L40,42 L80,0 L120,42 L160,0 L200,42 L240,0 L280,42 L320,0 L360,42 L400,0 L440,42 L480,0 L520,42 L560,0 L600,42 L640,0 L680,42 L720,0 L760,42 L800,0 L840,42 L880,0 L920,42 L960,0 L1000,42 L1040,0 L1080,42 L1120,0 L1160,42 L1200,0 L1200,42 L0,42 Z"/>
+    </svg>
+
+    <!-- SLOGAN FOLCLÓRICO SOLICITADO -->
+    <div class="slogan-banner">
+        <div class="slogan-text">
+            <svg class="slogan-icon" viewBox="0 0 24 24"><path d="M12 2L15 8L22 9L17 14 L18 21L12 17.5L6 21L7 14L2 9L9 8L12 2Z"/></svg>
+            <span>LA CHILANGUITA: CON EL SAZÓN Y FOLCLOR QUE NOS CARACTERIZA</span>
+            <svg class="slogan-icon" viewBox="0 0 24 24"><path d="M12 2L15 8L22 9L17 14 L18 21L12 17.5L6 21L7 14L2 9L9 8L12 2Z"/></svg>
+        </div>
+    </div>
+
+    <!-- Nosotros -->
+    <section class="section-padding" id="about-section">
+        <div class="container">
+            <div class="about-layout">
+                <div class="folk-border-box">
+                    <!-- Esquinas folclóricas -->
+                    <svg class="folk-corner folk-corner-tl" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                    <svg class="folk-corner folk-corner-tr" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                    <svg class="folk-corner folk-corner-bl" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                    <svg class="folk-corner folk-corner-br" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+
+                    <div class="badge-folk">
+                        <span id="about-subtitle" data-es="Nuestra Historia" data-en="About Us">Nuestra Historia</span>
+                    </div>
+                    <h2 class="section-title" id="about-title" style="text-align: left;" data-es="Somos La Chilanguita" data-en="We are La Chilanguita">Somos La Chilanguita</h2>
+                    
+                    <div class="about-text">
+                        <p id="about-p1">
+                            En La Chilanguita Mexican Cuisine, nos enorgullece brindar a nuestros clientes una auténtica y vibrante experiencia gastronómica mexicana, elaborada con esmero y arraigada en nuestra rica tradición culinaria. Cada platillo rebosa de sabores auténticos y está preparado para regalarte un momento inolvidable.
+                        </p>
+                        <p id="about-p2">
+                            El secreto de nuestro éxito es simple: crear comidas excepcionales utilizando ingredientes frescos y de la más alta calidad que capturan la esencia genuina de la cocina mexicana en cada bocado.
+                        </p>
+                        <p id="about-p3">
+                            Nuestra misión es ayudarte a saborear los momentos que realmente importan. Disfruta de gran comida, una bebida refrescante y relájate como en casa.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-gallery-duo">
+                    <img id="about-img-1" src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514277/unnamed_-_2026-10-16T152924.304_mg8gw5.webp" alt="Platillo La Chilanguita" class="about-img" loading="lazy">
+                    <img id="about-img-2" src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1792514279/unnamed_-_2026-10-16T152917.113_evpvzz.webp" alt="Especialidad Mexicana" class="about-img" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section-padding" id="gallery-section" style="background: rgba(14, 10, 8, 0.75);">
+        <div class="container">
+            <div class="section-title-wrap">
+                <div class="badge-folk">
+                    <span id="gallery-subtitle" data-es="Amor al Primer Bocado" data-en="Love At First Bite">Amor al Primer Bocado</span>
+                </div>
+                <h2 class="section-title" id="gallery-title" data-es="Sabor & Folclor Mexicano" data-en="Delicious Mexican Food">Sabor & Folclor Mexicano</h2>
+            </div>
+
+            <div id="gallery-container" class="gallery-grid">
+                <!-- Se generan dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Información y Visita -->
+    <section class="section-padding" id="info-section">
+        <div class="container">
+            <div class="folk-border-box">
+                <!-- Esquinas folclóricas -->
+                <svg class="folk-corner folk-corner-tl" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                <svg class="folk-corner folk-corner-tr" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                <svg class="folk-corner folk-corner-bl" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+                <svg class="folk-corner folk-corner-br" viewBox="0 0 24 24"><path d="M2,2 L2,10 L4,10 L4,4 L10,4 L10,2 L2,2 Z M6,6 L6,10 L8,10 L8,8 L10,8 L10,6 L6,6 Z"/></svg>
+
+                <div class="section-title-wrap" style="margin-bottom: 30px;">
+                    <div class="badge-folk">
+                        <span id="info-subtitle" data-es="Visítanos" data-en="Visit Us">Visítanos</span>
+                    </div>
+                    <h2 class="section-title" id="info-title" data-es="Información" data-en="Information">Información</h2>
+                </div>
+
+                <div class="info-cards-grid">
+                    <div class="info-card">
+                        <svg class="info-card-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        <h3 data-es="Horarios" data-en="Opening Hours">Horarios</h3>
+                        <p id="info-hours">Abierto todos los días de 10:00 AM a 10:00 PM (Cerrado los Martes)</p>
+                    </div>
+
+                    <div class="info-card">
+                        <svg class="info-card-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        <h3 data-es="Teléfono" data-en="Phone">Teléfono</h3>
+                        <p><a href="tel:4849659994" id="info-phone" style="color:var(--color-gold); font-weight:700;">484-965-9994</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <svg class="info-card-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <h3 data-es="Dirección" data-en="Address">Dirección</h3>
+                        <p id="info-address">1729 Markley St, Norristown, PA 19401</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer con Script Automático de Rango de Años Dinámico para Menutech -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-brand-title">La Chilanguita</h3>
+                    <p data-es="LA CHILANGUITA: CON EL SAZÓN Y FOLCLOR QUE NOS CARACTERIZA." data-en="LA CHILANGUITA: CON EL SAZÓN Y FOLCLOR QUE NOS CARACTERIZA.">
+                        LA CHILANGUITA: CON EL SAZÓN Y FOLCLOR QUE NOS CARACTERIZA.
+                    </p>
+                    <div class="social-icons-wrapper" id="social-icons">
+                        <!-- Redes Sociales Dinámicas (TikTok reemplaza Twitter) -->
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="color:#fff; font-family:var(--font-heading); margin-bottom:15px;" data-es="Contacto" data-en="Contact Us">Contacto</h4>
+                    <p id="footer-address">1729 Markley St, Norristown, PA 19401</p>
+                    <p id="footer-phone" style="margin-top:8px;">Teléfono: 484-965-9994</p>
+                </div>
+
+                <div>
+                    <h4 style="color:#fff; font-family:var(--font-heading); margin-bottom:15px;" data-es="Horarios" data-en="Opening Hours">Horarios</h4>
+                    <p id="footer-hours">Abierto todos los días de 10:00 AM a 10:00 PM (Cerrado los Martes)</p>
+                </div>
+            </div>
+
+            <!-- FOOTER MENUTECH SCRIPT OBLIGATORIO CON RANGO DE AÑOS AUTOMÁTICO DINÁMICO DESDE 2015 HASTA AÑO ACTUAL -->
+            <div class="footer-bottom">
+                <p id="menutech-copyright">
+                    © 2015-<span id="copyright-current-year"></span> Powered by <a href="https://menutech.xyz" target="_blank" rel="noopener noreferrer" class="menutech-link">Menutech</a>. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LÓGICA DE JAVASCRIPT & INTERNACIONALIZACIÓN -->
+    <script>
+        // SCRIPT AUTOMÁTICO DE MENUTECH PARA AÑO ACTUAL DINÁMICO
+        (function() {
+            const yearSpan = document.getElementById('copyright-current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        })();
+
+        // Optimizador de Imágenes Cloudinary
+        const optimizeCloudinaryUrl = (url, options = {}) => {
+            if (!url || typeof url !== 'string' || !url.includes('res.cloudinary.com')) return url;
+            const [baseUrl, hash] = url.split('#');
+            if (!baseUrl.includes('/upload/')) return url;
+            const parts = baseUrl.split('/upload/');
+
+            let pathSegments = parts[1].split('/');
+            if (pathSegments.length > 1) {
+                const firstSegment = pathSegments[0];
+                const isVersion = /^v\d+$/.test(firstSegment);
+                const isTransformation = !isVersion && (firstSegment.includes('_') || firstSegment.includes(','));
+                if (isTransformation) pathSegments.shift();
+            }
+            const cleanPath = pathSegments.join('/');
+
+            let transformations = ['f_auto', 'q_auto:eco', 'dpr_auto'];
+            if (options.width) transformations.push(`w_${options.width}`);
+            else transformations.push('w_500');
+            if (options.height) transformations.push(`h_${options.height}`);
+            if (options.crop) transformations.push(`c_${options.crop}`);
+            
+            const transformationString = transformations.join(',');
+            const optimizedUrl = `${parts[0]}/upload/${transformationString}/${cleanPath}`;
+            return hash ? `${optimizedUrl}#${hash}` : optimizedUrl;
+        };
+
+        // Iconos de Redes Sociales (TikTok reemplaza Twitter)
+        const SOCIAL_ICONS = {
+            instagram: `<svg style="width:20px;height:20px;fill:currentColor" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>`,
+            facebook: `<svg style="width:20px;height:20px;fill:currentColor" viewBox="0 0 24 24"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>`,
+            whatsapp: `<svg style="width:20px;height:20px;fill:currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.81 9.81 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.22 8.22 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.44 0-2.85-.38-4.1-1.11l-.29-.17-3.06.81.82-2.98-.19-.3a8.22 8.22 0 0 1-1.26-4.48c0-4.54 3.7-8.23 8.24-8.23m-3.85 3.09c-.21 0-.45.03-.66.24-.21.21-.81.79-.81 1.94s.84 2.25.96 2.41c.12.16 1.63 2.49 3.96 3.5.55.24 1 .38 1.34.49.56.18 1.07.15 1.48.09.45-.06 1.39-.57 1.58-1.12.2-.55.2-1.02.14-1.12-.06-.1-.21-.16-.45-.27-.24-.12-1.39-.69-1.61-.77-.22-.08-.37-.12-.53.12-.16.24-.61.77-.75.93-.14.16-.27.18-.51.06-.24-.12-.99-.36-1.89-1.16-.7-.62-1.17-1.39-1.31-1.63-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.15.16-.25.24-.42.08-.17.04-.32-.02-.45-.06-.13-.53-1.28-.73-1.75-.19-.48-.39-.41-.53-.42l-.44-.01Z"/></svg>`,
+            tiktok: `<svg style="width:20px;height:20px;fill:currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-5.2-1.74 2.89 2.89 0 0 1 2.31-2.82V7.5a6.34 6.34 0 0 0-3.55 1.01 6.33 6.33 0 0 0-2.8 5.25 6.33 6.33 0 0 0 6.33 6.33c3.5 0 6.33-2.83 6.33-6.33V9a8.16 8.16 0 0 0 4.8 1.56V7.1a4.85 4.85 0 0 1-1.00-.41z"/></svg>`,
+            twitter: `<svg style="width:20px;height:20px;fill:currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-5.2-1.74 2.89 2.89 0 0 1 2.31-2.82V7.5a6.34 6.34 0 0 0-3.55 1.01 6.33 6.33 0 0 0-2.8 5.25 6.33 6.33 0 0 0 6.33 6.33c3.5 0 6.33-2.83 6.33-6.33V9a8.16 8.16 0 0 0 4.8 1.56V7.1a4.85 4.85 0 0 1-1.00-.41z"/></svg>`
+        };
+
+        let currentLang = 'es';
+
+        function applyLanguage(lang) {
+            currentLang = lang;
+            document.querySelectorAll('[data-es]').forEach(el => {
+                const text = el.getAttribute(`data-${lang}`);
+                if (text) el.textContent = text;
+            });
+
+            const esBtn = document.getElementById('lang-es');
+            const enBtn = document.getElementById('lang-en');
+            if (esBtn && enBtn) {
+                if (lang === 'es') {
+                    esBtn.classList.add('active');
+                    enBtn.classList.remove('active');
+                } else {
+                    enBtn.classList.add('active');
+                    esBtn.classList.remove('active');
+                }
+            }
+        }
+
+        function updateUI(data) {
+            if (!data) return;
+
+            if (data.lang) applyLanguage(data.lang);
+
+            // Título Marca
+            if (data.title) {
+                const navBrand = document.getElementById('nav-brand');
+                if (navBrand && navBrand.querySelector('span')) {
+                    navBrand.querySelector('span').textContent = data.title;
+                }
+            }
+
+            // Logo & Favicon
+            if (data.logoImg) {
+                const logo = document.getElementById('hero-logo');
+                const favicon = document.getElementById('favicon');
+                const optimizedLogo = optimizeCloudinaryUrl(data.logoImg, { width: 250 });
+                if (logo) logo.src = optimizedLogo;
+                if (favicon) favicon.href = optimizedLogo;
+            }
+
+            // Dirección Hero
+            if (data.heroAddress !== undefined) {
+                const addr = document.getElementById('hero-address');
+                if (addr) addr.textContent = data.heroAddress;
+            }
+
+            // Hero Image Background
+            if (data.heroImg) {
+                const heroSection = document.getElementById('hero-section');
+                if (heroSection) {
+                    heroSection.style.backgroundImage = `radial-gradient(circle at center, rgba(8,6,5,0.3) 0%, rgba(8,6,5,0.94) 100%), url('${optimizeCloudinaryUrl(data.heroImg, { width: 1200 })}')`;
+                }
+            }
+
+            // Imágenes Nosotros
+            if (data.aboutImg1) {
+                const img1 = document.getElementById('about-img-1');
+                if (img1) img1.src = optimizeCloudinaryUrl(data.aboutImg1, { width: 600 });
+            }
+            if (data.aboutImg2) {
+                const img2 = document.getElementById('about-img-2');
+                if (img2) img2.src = optimizeCloudinaryUrl(data.aboutImg2, { width: 600 });
+            }
+
+            // Información
+            if (data.info) {
+                const hoursEl = document.getElementById('info-hours');
+                const phoneEl = document.getElementById('info-phone');
+                const addressEl = document.getElementById('info-address');
+
+                if (hoursEl) hoursEl.innerHTML = (data.info.hours || '').replace(/\n/g, '<br>');
+                if (phoneEl) phoneEl.textContent = data.info.phone || '';
+                if (addressEl) addressEl.textContent = data.info.address || '';
+
+                const fHours = document.getElementById('footer-hours');
+                const fPhone = document.getElementById('footer-phone');
+                const fAddress = document.getElementById('footer-address');
+                if (fHours) fHours.innerHTML = (data.info.hours || '').replace(/\n/g, '<br>');
+                if (fPhone) fPhone.textContent = (currentLang === 'es' ? 'Teléfono: ' : 'Phone: ') + (data.info.phone || '');
+                if (fAddress) fAddress.textContent = data.info.address || '';
+            }
+
+            // Redes Sociales (TikTok)
+            if (data.socials) {
+                const container = document.getElementById('social-icons');
+                if (container) {
+                    container.innerHTML = data.socials.map(s => {
+                        let platformKey = s.platform;
+                        if (s.url && s.url.includes('tiktok.com')) platformKey = 'tiktok';
+                        return `
+                            <a href="${s.url}" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="${platformKey}">
+                                ${SOCIAL_ICONS[platformKey] || SOCIAL_ICONS['tiktok']}
+                            </a>
+                        `;
+                    }).join('');
+                }
+            }
+
+            // Galería
+            if (data.gallery) {
+                const container = document.getElementById('gallery-container');
+                if (container) {
+                    container.innerHTML = data.gallery.map((img, idx) => `
+                        <div class="gallery-item">
+                            <img src="${optimizeCloudinaryUrl(img, { width: 500, height: 500, crop: 'fill' })}" alt="Platillo La Chilanguita ${idx + 1}" loading="lazy">
+                        </div>
+                    `).join('');
+                }
+            }
+
+            // Títulos
+            if (data.titles) {
+                Object.keys(data.titles).forEach(id => {
+                    const el = document.getElementById(id);
+                    if (el) el.textContent = data.titles[id];
+                });
+            }
+
+            // Párrafos
+            if (data.paragraphs && data.paragraphs.about) {
+                const paragraphs = data.paragraphs.about.split('\n\n');
+                if (paragraphs[0] && document.getElementById('about-p1')) document.getElementById('about-p1').textContent = paragraphs[0];
+                if (paragraphs[1] && document.getElementById('about-p2')) document.getElementById('about-p2').textContent = paragraphs[1];
+                if (paragraphs[2] && document.getElementById('about-p3')) document.getElementById('about-p3').textContent = paragraphs[2];
+            }
+        }
+
+        // Event Listener para Editor Menutech
+        window.addEventListener('message', (event) => {
+            if (event.data && event.data.type === 'UPDATE_CONTENT') {
+                updateUI(event.data.data);
+            }
+        });
+
+        // Inicialización
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.MENU_TECH_STATE) {
+                updateUI(window.MENU_TECH_STATE);
+            }
+
+            const esBtn = document.getElementById('lang-es');
+            const enBtn = document.getElementById('lang-en');
+            if (esBtn) esBtn.addEventListener('click', () => applyLanguage('es'));
+            if (enBtn) enBtn.addEventListener('click', () => applyLanguage('en'));
+
+            // Toggle Navegación Móvil
+            const navbarToggler = document.getElementById('navbar-toggler');
+            const navMenu = document.getElementById('nav-menu');
+
+            if (navbarToggler && navMenu) {
+                navbarToggler.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!navbarToggler.contains(e.target) && !navMenu.contains(e.target)) {
+                        navMenu.classList.remove('active');
+                    }
+                });
+            }
+
+            // Click-to-Locate para editor Menutech
+            document.body.addEventListener('click', (e) => {
+                let target = e.target;
+                while (target && target !== document.body) {
+                    if (target.id && (
+                        target.id === 'nav-brand' ||
+                        target.id === 'hero-logo' ||
+                        target.id === 'hero-section' ||
+                        target.id === 'about-section' ||
+                        target.id === 'gallery-section' ||
+                        target.id === 'info-section' ||
+                        target.id === 'social-icons'
+                    )) {
+                        if (window.parent) {
+                            window.parent.postMessage({ type: 'SCROLL_TO', id: target.id }, '*');
+                        }
+                        break;
+                    }
+                    target = target.parentElement;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
